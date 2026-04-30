@@ -10,11 +10,7 @@ The approach combines a vision model for RSSI map reconstruction and a dynamics 
 
 ![Framework](figures/framework.png)
 
-<p align="center">
-  <img src="figures/framework.png" alt="Framework overview" width="850"/>
-</p>
-
-*Figure 1. High-level overview of the proposed world-model-based framework for active radio environment mapping.*
+*High-level overview of the proposed world-model-based framework for active radio environment mapping.*
 
 ## Installation
 
@@ -29,6 +25,14 @@ pip install -r requirements.txt
 The `main.py` contains the full experimental pipeline, including dataset loading, model initialization (VAE and dynamics model), loading of pretrained weights, execution of baseline methods (copy-empty and Gaussian Process).The script produces quantitative metrics (e.g., RMSE/MAE) and generates qualitative visualizations such as reconstruction heatmaps and performance curves.
 
 The repository includes a `requirements.txt` file for installing all dependencies, as well as pretrained model weights to facilitate reproducible evaluation without the need for retraining.
+
+## Results
+
+The paper reports that the proposed method outperforms GP-based interpolation in the few-shot regime and can achieve up to a fivefold RMSE reduction with the same number of measurements [file:1]. Figure 3 is a good qualitative result to include in the repository because it shows the world-model reconstruction, GP baseline, and ground truth side by side [file:1].
+
+![Heatmaps](figures/heatmaps.png)
+*Reconstructed RSSI environment maps for a 36 × 44 grid with N = 20 measurements.*
+
 
 ### Citation
 Please cite our paper as follows:
