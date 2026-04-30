@@ -28,7 +28,7 @@ The repository includes a `requirements.txt` file for installing all dependencie
 
 ## Results
 
-The paper reports that the proposed method outperforms GP-based interpolation in the few-shot regime and can achieve up to a fivefold RMSE reduction with the same number of measurements [file:1]. Figure 3 is a good qualitative result to include in the repository because it shows the world-model reconstruction, GP baseline, and ground truth side by side [file:1].
+The paper reports that the proposed method outperforms GP-based interpolation in the few-shot regime and can achieve up to a fivefold RMSE reduction with the same number of measurements. Figure 3 is a good qualitative result to include in the repository because it shows the world-model reconstruction, GP baseline, and ground truth side by side.
 
 ![Heatmaps](figures/heatmaps.png)
 *Reconstructed RSSI environment maps for a 36 × 44 grid with N = 20 measurements.*
