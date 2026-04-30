@@ -9,6 +9,17 @@ The `main.py` contains the full experimental pipeline, including dataset loading
 
 The repository includes a `requirements.txt` file for installing all dependencies, as well as pretrained model weights to facilitate reproducible evaluation without the need for retraining.
 
+### Citation
+Please cite our paper as follows:
+
+```bibtex
+@article{hribar2026radio,
+  author  = {Hribar, Jernej and  Milosheski, Ljupcho and Shinkuma, Ryoichi},
+  title   = {Radio Environment Mapping with World Models for Active Measurement Control: Should Networks Dream of Optimal Control?},
+  year    = {2026}
+}
+```
+
 ### Dataset
 
 The RSSI dataset used in this work is available on [Zenodo](https://zenodo.org/records/15791300).
@@ -23,3 +34,9 @@ The RSSI dataset used in this work is available on [Zenodo](https://zenodo.org/r
   url     = {https://arxiv.org/abs/2511.00494}
 }
 ```
+
+### Acknowledgements
+
+This work was supported in part by the Slovenian Research Agency (ARIS) under grants P2-0016 and MN-0009. and by the Japan Society for the Promotion of Science (JSPS) under grants 23H00464, 25H01124, and 120245002. Additional support was provided by the bilateral project MISA (BI-JP/24-26-001), funded jointly by ARIS and the JSPS.
+
+
