@@ -8,6 +8,8 @@ This repository contains a World Models models solution (Vision VAE + dynamics +
 
 The approach combines a vision model for RSSI map reconstruction and a dynamics model for dreaming-based active measurement selection. The system evaluates candidate sensing locations by simulating their effect on the latent belief and selects the next measurement expected to improve the final reconstruction most efficiently.
 
+![Framework](figures/framework.png)
+
 <p align="center">
   <img src="figures/framework.png" alt="Framework overview" width="850"/>
 </p>
