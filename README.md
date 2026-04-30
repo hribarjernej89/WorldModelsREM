@@ -1,7 +1,26 @@
-# Radio Environment Mapping with World Models for Active Measurement Control: Should Networks Dream of Optimal Control?
+# WorldModelsREM
 
+This repository contains the implementation accompanying the paper *Radio Environment Mapping with World Models for Active Measurement Control: Should Networks Dream of Optimal Control?* The project studies active radio environment mapping (REM) under a limited measurement budget, where the goal is to reconstruct an occupied RSSI map from only a small number of measurements while using an empty-environment map as structural prior information
 
-This repository contains a World Models models solution (Vision VAE + dynamics + dreaming sequence) of measurement selection for a **few-shot RSSI Radio Map reconstruction**. The full paper is available on arXiv as bellow. 
+This repository contains a World Models models solution (Vision VAE + dynamics + dreaming sequence) of measurement selection for a **few-shot RSSI Radio Map reconstruction**. 
+
+## World Model Approach
+
+The approach combines a vision model for RSSI map reconstruction and a dynamics model for dreaming-based active measurement selection. The system evaluates candidate sensing locations by simulating their effect on the latent belief and selects the next measurement expected to improve the final reconstruction most efficiently.
+
+<p align="center">
+  <img src="figures/framework.png" alt="Framework overview" width="850"/>
+</p>
+
+*Figure 1. High-level overview of the proposed world-model-based framework for active radio environment mapping.*
+
+## Installation
+
+```bash
+git clone https://github.com/hribarjernej89/WorldModelsREM.git
+cd WorldModelsREM
+pip install -r requirements.txt
+```
 
 ## Code 
 
