@@ -53,7 +53,7 @@ Please cite our paper as follows:
 The RSSI dataset used in this work is available on [Zenodo](https://zenodo.org/records/15791300).
 
 ```bibtex
-@article{milosheski2025_indoor_radio_mapping_arxiv,
+@article{milosheski2025_indoor_radio_mapping,
   author = {Milosheski, Ljupcho and Akiyama, Kuon and Bertalani{\v{c}}, Bla{\v{z}} and Hribar, Jernej and Shinkuma, Ryoichi},
   title = {An Indoor Radio Mapping Dataset Combining 3D Point Clouds and RSSI},
   journal = {Data in Brief},
