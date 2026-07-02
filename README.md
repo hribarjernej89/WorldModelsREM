@@ -1,4 +1,4 @@
-# WorldModelsREM
+# Radio Environment Mapping with World Models
 
 This repository contains the implementation accompanying the paper *Radio Environment Mapping with World Models for Active Measurement Control: Should Networks Dream of Optimal Control?* The project studies active radio environment mapping (REM) under a limited measurement budget, where the goal is to reconstruct an occupied RSSI map from only a small number of measurements while using an empty-environment map as structural prior information
 
@@ -39,9 +39,12 @@ Please cite our paper as follows:
 
 ```bibtex
 @article{hribar2026radio,
-  author  = {Hribar, Jernej and  Milosheski, Ljupcho and Shinkuma, Ryoichi},
-  title   = {Radio Environment Mapping with World Models for Active Measurement Control: Should Networks Dream of Optimal Control?},
-  year    = {2026}
+  author = {Hribar, Jernej and  Milosheski, Ljupcho and Shinkuma, Ryoichi},
+  title = {Radio Environment Mapping with World Models for Active Measurement Control: Should Networks Dream of Optimal Control?},
+  booktitle = {2026 Joint European Conference on Networks and Communications & 6G Summit (EuCNC/6G Summit)},
+  pages = {14-19},
+  doi = {10.1109/EuCNC/6GSummit68295.2026.11577352}},
+  year = {2026}
 }
 ```
 
@@ -51,12 +54,14 @@ The RSSI dataset used in this work is available on [Zenodo](https://zenodo.org/r
 
 ```bibtex
 @article{milosheski2025_indoor_radio_mapping_arxiv,
-  author  = {Milosheski, Ljupcho and Akiyama, Kuon and Bertalani{\v{c}}, Bla{\v{z}} and Hribar, Jernej and Shinkuma, Ryoichi},
-  title   = {An Indoor Radio Mapping Dataset Combining 3D Point Clouds and RSSI},
-  journal = {arXiv},
-  year    = {2025},
-  eprint  = {2511.00494},
-  url     = {https://arxiv.org/abs/2511.00494}
+  author = {Milosheski, Ljupcho and Akiyama, Kuon and Bertalani{\v{c}}, Bla{\v{z}} and Hribar, Jernej and Shinkuma, Ryoichi},
+  title = {An Indoor Radio Mapping Dataset Combining 3D Point Clouds and RSSI},
+  journal = {Data in Brief},
+  volume = {67},
+  pages = {112959},
+  year = {2026},
+  issn = {2352-3409},
+  doi = {10.1016/j.dib.2026.112959},
 }
 ```
 
