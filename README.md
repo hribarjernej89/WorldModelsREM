@@ -43,7 +43,7 @@ Please cite our paper as follows:
   title = {Radio Environment Mapping with World Models for Active Measurement Control: Should Networks Dream of Optimal Control?},
   booktitle = {2026 Joint European Conference on Networks and Communications & 6G Summit (EuCNC/6G Summit)},
   pages = {14-19},
-  doi = {10.1109/EuCNC/6GSummit68295.2026.11577352}},
+  doi = {10.1109/EuCNC/6GSummit68295.2026.11577352},
   year = {2026}
 }
 ```
